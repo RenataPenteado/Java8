@@ -10,6 +10,15 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
 
 # External tool builders
 .externalToolBuilders/

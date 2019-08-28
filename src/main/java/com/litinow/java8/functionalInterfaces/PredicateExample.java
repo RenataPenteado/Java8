@@ -9,7 +9,7 @@ public class PredicateExample {
 	public static void main(String[] args) {
 		
 		Predicate<Person> predicate = (person) -> person.getAge() > 28; 
-		boolean result = predicate.test(new Person("Renata", 29));
+		boolean result = predicate.test(new Person("Renata", 32));
 		System.out.println(result);
 	}
 }

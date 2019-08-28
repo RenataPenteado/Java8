@@ -20,6 +20,8 @@ public class OptionalClassExamples {
 	private static void isPresentOptionalAPI() {
 		Optional<String> opt = Optional.of("Renata");
 		System.out.println(opt.isPresent());
+		//System.out.println(opt.get());
+		
 	}
 
 	// Returns an Optional with the specified present non-null value.

@@ -7,7 +7,7 @@ public class SuppliersExample {
 	public static void main(String[] args) {
 		
 		Supplier<Person> supplier = () -> { 
-			return new Person("Renata", 30 );
+			return new Person("Renata", 32 );
 		};
 		
         Person p = supplier.get();
